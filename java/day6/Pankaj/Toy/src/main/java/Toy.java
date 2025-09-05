@@ -1,18 +1,22 @@
+import java.time.YearMonth;
+
 public class Toy {
     private long productid;
     private String name;
     private double price;
     private String category;
-    private int age;
-    private int purchaseyear;
+    private int lowAge;
+    private int highAge;
+    private YearMonth purchase;
 
-    public Toy(long productid, String name, double Price, String category, int age, int purchaseyear){
+    public Toy(long productid, String name, double Price, String category, int lowAge, int highAge, YearMonth purchase){
         this.productid = productid;
         this.name = name;
         this.price = price;
         this.category = category;
-        this.age = age;
-        this.purchaseyear = purchaseyear;
+        this.lowAge = lowAge;
+        this.highAge = highAge;
+        this.purchase = purchase;
     }
 
     public long getProductId(){
@@ -46,16 +50,21 @@ public class Toy {
     public void setCatgeory(String category){
         this.category = category;
     }
-    public int getAge(){
-        return this.age;
+    public int[] getAge(){
+        int[] ageRange ={this.lowAge,this.highAge};
+        return ageRange;
     }
-    public void setAge(int age){
-        this.age = age;
-    }
-
-    public void setPurchaseYear(int purchaseyear){
-        this.purchaseyear = purchaseyear;
+    public void setAge(int lowAge,int highAge){
+        this.lowAge = lowAge;
+        this.highAge = highAge;
     }
 
+    public void setPurchase(YearMonth purchase){
+        this.purchase = purchase;
+    }
+
+    public YearMonth getPurchase(){
+        return purchase;
+    }
 
 }
