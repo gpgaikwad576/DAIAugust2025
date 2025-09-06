@@ -9,7 +9,7 @@ public class Toy {
     private int highAge;
     private YearMonth purchase;
 
-    public Toy(long productid, String name, double Price, String category, int lowAge, int highAge, YearMonth purchase){
+    public Toy(long productid, String name, double price, String category, int lowAge, int highAge, YearMonth purchase){
         this.productid = productid;
         this.name = name;
         this.price = price;
@@ -67,4 +67,8 @@ public class Toy {
         return purchase;
     }
 
+    @Override
+    public String toString() {
+        return "Id: "+productid+" name: "+name+" price: "+price+" category: "+category+" lowAge: "+lowAge+" highAge: "+highAge;
+    }
 }

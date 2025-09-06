@@ -1,28 +1,24 @@
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Arrays;
-import java.util.ArrayList;
+import java.util.*;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
 import java.time.YearMonth;
 
 public class Stock<T extends Toy> {
-    List<T> arr;
+    List<T> items;
     public Stock(){
-        arr = new ArrayList<>();
+        items = new ArrayList<>();
     }
 
     public void addItem(T item){
-        arr.add(item);
+        items.add(item);
     }
     public List<T> listStock(){
-        return arr;
+        return items;
     }
 
     public List<T> filterByCategory(String category){
         List<T> filteredList = new ArrayList<>();
-        for(T item: arr){
+        for(T item: items){
             if(item.getCategory().equals(category)) filteredList.add(item);
         }
         return filteredList;
@@ -30,7 +26,7 @@ public class Stock<T extends Toy> {
 
     public List<T> filterByPriceRange(double lowPrice,double highPrice){
         List<T> filteredList = new ArrayList<>();
-        for(T item: arr){
+        for(T item: items){
             if(item.getPrice() > lowPrice && item.getPrice() < highPrice){
                 filteredList.add(item);
             }
@@ -40,9 +36,9 @@ public class Stock<T extends Toy> {
 
     public List<T> filterByAge(int age){
         List<T> filteredList = new ArrayList<T>();
-        for(int i =0;i<arr.size();i++){
-            T item = arr.get(i);
-            if(age>item.getAge()[0] && age< item.getAge()[0]){
+        for(int i =0;i<items.size();i++){
+            T item = items.get(i);
+            if(age>item.getAge()[0] && age< item.getAge()[1]){
                 filteredList.add(item);
             }
         }
@@ -51,9 +47,8 @@ public class Stock<T extends Toy> {
 
     public List<T> filterByPurchase(int stay){
         List<T> filteredList = new ArrayList<>();
-        System.out.println(YearMonth.now());
-        for(int i =0;i<arr.size();i++){
-            T item = arr.get(i);
+        for(int i =0;i<items.size();i++){
+            T item = items.get(i);
             if(ChronoUnit.MONTHS.between(item.getPurchase(),YearMonth.now())>stay) filteredList.add(item);
         }
         return filteredList;
@@ -61,36 +56,35 @@ public class Stock<T extends Toy> {
 
     public Map<String,List<T>> groupedByCategory(){
         Map<String,List<T>> filteredList = new HashMap<>();
-        for(T item: arr){
+        for(T item: items){
             if(filteredList.containsKey(item.getCategory())){
                 filteredList.get(item.getCategory()).add(item);
             }
             else{
-                filteredList.put(item.getCategory(),new ArrayList<T>(Arrays.aslist(item)));
+                filteredList.put(item.getCategory(),new ArrayList<T>(Arrays.asList(item)));
             }
         }
         return filteredList;
     }
 
     public T searchList(int productid){
+        Comparator<Toy> byProductId = Comparator.comparing(Toy::getProductId);
+        items.sort(byProductId);
+        int index = Collections.binarySearch(items,new Toy(productid,null,0,null,0,0,null),byProductId);
+        return items.get(index);
 
-        long[] productIdArr = new int[]{};
-        for(int i =0;i<arr.size();i++){
-            productIdArr[i] = arr.get(i).getProductId();
-        }
-        long low = productIdArr[0], high = productIdArr[arr.size()-1];
-        while(low<=high){
-            long mid = (low+high)/2;
-            if(productid == mid){
-                for(T item:arr){
-                    if(item.getProductId() == mid) return item;
-                }
-            }
-            else if(productid < mid){
-                high = mid-1;
-            }
-        }
     }
+
+    public List<T> sortToys(){
+        Comparator<Toy> byPriceNamePId = Comparator.comparing(Toy::getPrice)
+                .thenComparing(Toy::getName)
+                .thenComparing(Toy::getProductId);
+        items.sort(byPriceNamePId);
+        return items;
+    }
+
+
+
 
 
 
