@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import com.cdac.NumCharCalcDesc;
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -38,7 +39,7 @@ public class Main {
         };
         //List<String> lessThanN = stream.filter(s->Character.toLowerCase(s.charAt(0))<'n').sorted(Comparator.reverseOrder()).toList();
         //List<String> lessThanN = stream.filter(s->Character.toLowerCase(s.charAt(0))<'n').sorted(Comparator.reverseOrder()).toList();
-        stream.filter(prediNDesc).sorted((s1,s2)->s2.compareTo(s1)).forEach(System.out::println);
+        stream.filter(prediNDesc).sorted(new NumCharCalcDesc()).forEach(System.out::println);
         System.out.println();
         System.out.println();
 
