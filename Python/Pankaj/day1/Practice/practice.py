@@ -1,11 +1,7 @@
 
 '''day3
 List and array: random delete and insert operation is slow'''
-
-
-
-
-
+import math
 
 # # Data Types, Variables, Operators, Input/Output
 # x = 10            # integer
@@ -253,3 +249,74 @@ ivd={}
 for k,v in ip.items():
     ivd.setdefault(v,[]).append(k)
 print(ivd)
+
+
+#######################################################
+######day4
+def add(*a):
+    ans =0
+    for i in a:
+        ans += math.pow(i,2)
+    return ans
+
+def callfun():
+    add(1, 2, 3, 4)
+
+print(callfun())
+
+##takes array and  splitting factor and splits the array
+def fun(arr,s):
+    l=[]
+    for i in range(0,len(arr),s):
+        t=[]
+        for j in range(i,i+s):
+            t.append(arr[j])
+        l.append(t)
+    return l
+
+def fun2(arr,s):
+    l=[]
+    li=-1
+    for i in range(0,len(arr)):
+        if((i+s)%s ==0):
+            l.append([])
+            li+=1
+        l[li].append(arr[i])
+    return l
+
+print(fun2([1,2,3,4,5,6],2))
+
+## function which will find the key with maximum value
+def fun(d):
+    mx=float('-inf')
+    if(len(d) ==0):
+        return false
+    for k,v in d.items():
+        if(v > mx):
+            mx = v
+            mk=k
+    return mk
+
+print(fun({'A':1,'B':3}))
+
+##4.
+##take expression as string arguement
+
+def  ispanagram(str):
+    s=set()
+    for i in str:
+        if(i.isalpha()): s.add(i)
+    return len(s)==26
+
+def  ispanagram2(str):
+    s=set()
+    for i in str:
+        if(i.isalpha()): s.add(i)
+    return len(s)==26
+print("is it Panagram:" , ispanagram('dfdh dfdjfkdfj sdsd'))
+
+##5.
+
+
+
+

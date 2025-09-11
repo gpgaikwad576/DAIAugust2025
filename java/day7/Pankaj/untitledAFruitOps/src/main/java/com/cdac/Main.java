@@ -109,6 +109,5 @@ public class Main {
         stream = Arrays.stream(fruits);
         stream.sorted(Comparator.comparing(String::length,Comparator.reverseOrder()).thenComparing(String::compareTo).reversed()).forEach((s)->System.out.print(s+" "));
 
-
     }
 }
