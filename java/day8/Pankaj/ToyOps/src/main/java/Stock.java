@@ -1,13 +1,8 @@
 import java.time.temporal.ChronoUnit;
 import java.time.YearMonth;
 import java.time.YearMonth;
-import java.util.Map;
-import java.util.List;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Collections;
-import java.util.Comparator;
+import java.util.*;
+import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.stream.Stream;
@@ -47,15 +42,23 @@ public class Stock<T extends Toy> {
     }
 //    6. Make a group of toys as per their category, count them
     public Map<String,Long> groupByCatCount(){
-        return items.stream().collect(Collectors.groupingBy(Toy::getCategory,
-                Collectors.counting()));
+        return items.stream().collect(Collectors.groupingBy(Toy::getCategory, Collectors.counting()));
+        //If I were to simply count
+        //return items.stream().count();
     }
 
 //    7. Display the most expensive/least expensive toy in given category
-    public T getMostExpToy(String category){
-        return items.stream().filter((toy)->toy.getCategory().equals(category)).col
+    public Optional<T> getMostExpToy(String category){
+        //return items.stream().filter((toy)->toy.getCategory().equals(category)).collect(Collectors.maxBy(Comparator.comparingDouble(Toy::getPrice)));
+        //return items.stream().filter((toy)->toy.getCategory().equals(category)).max(Comparator.comparingDouble(Toy::getPrice));
+        return items.stream().filter((toy)->toy.getCategory().equals(category)).reduce(BinaryOperator.maxBy(Comparator.comparingDouble(Toy::getPrice)));
     }
+
+
 //    8. Print total no of toys in stock for each age grp
+    public Map<Integer[],Long> grpCountToysAge(){
+        return items.stream().collect(Collectors.groupingBy(Toy::getAge,Collectors.counting()));
+    }
 
 
 
@@ -82,6 +85,7 @@ public class Stock<T extends Toy> {
 
 
 
+/////////////////////////////////////////////////
     public List<T> filterByCategory(String category){
         List<T> filteredList = new ArrayList<>();
         for(T item: items){

@@ -50,8 +50,8 @@ public class Toy {
     public void setCatgeory(String category){
         this.category = category;
     }
-    public int[] getAge(){
-        int[] ageRange = {this.lowAge,this.highAge};
+    public Integer[] getAge(){
+        Integer[] ageRange = {this.lowAge,this.highAge};
         return ageRange;
     }
 
