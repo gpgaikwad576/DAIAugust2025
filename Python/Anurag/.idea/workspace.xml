@@ -5,23 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Account.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pankaj/day4/q3/numops.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pankaj/day4/q3/strops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack2/Main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pack2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pankaj/day5 compreh/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day8-09.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Day8-09.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Main.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/Assignment1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/Assignment1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/Assignment1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day1/Practice/practice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day1/Practice/practice.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day8-09.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Day13-09.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -36,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -46,6 +49,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -68,10 +72,15 @@
       <workItem from="1757667970926" duration="1443000" />
       <workItem from="1757672901392" duration="34000" />
       <workItem from="1757675569020" duration="364000" />
+      <workItem from="1757731317489" duration="963000" />
+      <workItem from="1757738747841" duration="5147000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Anurag$Main.coverage" NAME="Main Coverage Results" MODIFIED="1757731894933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pack2" />
   </component>
 </project>
