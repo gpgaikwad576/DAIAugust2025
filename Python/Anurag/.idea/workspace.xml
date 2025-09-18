@@ -5,28 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/classcode.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/Class Methods.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/Mainpf.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/Mainpf.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/duplicate removal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/duplicate removal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/evenElement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/evenElement.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/evenodd.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/evenodd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/factorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/list of prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/list of prime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/marks.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/marks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/odd number.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/odd number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/prime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/reverse.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/reverse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/string ops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/string ops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/sum.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1/swap.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assigments/PythonAssigment1/swap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Basics/Account.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Basics/Account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day6/predayPract.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day6/predayPract.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/Day1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/classcode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/classCode.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig1/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/day7/practice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day7/practice.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,11 +55,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DAIAugust2025\Python\Anurag\PythonvenvPrac\Class Concepts" />
+      <recent name="D:\DAIAugust2025\Python\Anurag\PythonvenvPrac" />
       <recent name="D:\DAIAugust2025\Python\Anurag\Assigments" />
       <recent name="D:\DAIAugust2025\Python\Anurag\Assigement" />
       <recent name="D:\DAIAugust2025\Python\Anurag\PythonvenvPrac\Basics" />
-      <recent name="D:\DAIAugust2025\Python\Anurag\PythonvenvPrac" />
-      <recent name="D:\DAIAugust2025\Python\Anurag\pythonProject1" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -103,6 +87,9 @@
       <workItem from="1758075195462" duration="8661000" />
       <workItem from="1758105720749" duration="8891000" />
       <workItem from="1758117470932" duration="619000" />
+      <workItem from="1758166361497" duration="7798000" />
+      <workItem from="1758175334753" duration="227000" />
+      <workItem from="1758175576921" duration="59000" />
     </task>
     <servers />
   </component>
