@@ -71,8 +71,9 @@ public class Main {
         //List<String> lessThanN = stream.filter(s->Character.toLowerCase(s.charAt(0))<'n').sorted(Comparator.naturalOrder()).toList();
         //List<String> lessThanN = stream.filter(s->Character.toLowerCase(s.charAt(0))<'n').sorted((s1,s2)->s1.compareTo(s2)).toList();
         //List<String> lessThanN = stream.filter(s->Character.toLowerCase(s.charAt(0))<'n').sorted(Comparator.comparing(String::valueOf)).toList();
+        List<String> lessThanN = stream.filter(s->Character.toLowerCase(s.charAt(0))<'n').sorted(Comparator.comparing(String::valueOf)).toList();
         //List<String> lessThanN = stream.filter(s->Character.toLowerCase(s.charAt(0))<'n').sorted((s1,s2)->(Character.getNumericValue(s1.charAt(0))-Character.getNumericValue(s2.charAt(0)))).toList();
-        List<String> lessThanN = stream.filter(s->Character.toLowerCase(s.charAt(0))<'n').sorted(new NumCharCalc()).toList();
+        //List<String> lessThanN = stream.filter(s->Character.toLowerCase(s.charAt(0))<'n').sorted(new NumCharCalc()).toList();
         System.out.println(lessThanN);
         System.out.println();
 

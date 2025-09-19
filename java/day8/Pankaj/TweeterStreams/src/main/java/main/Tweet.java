@@ -1,14 +1,23 @@
-package Main;
+package main;
+
 import java.time.LocalDate;
 import java.util.Set;
+
+//    Perform following operations for tweeter website
+//    A tweet should have
+//    a. subject
+//    b. date of post
+//    c. no of views
+//    d. Set of hashtags (one tweet can have many hashtags e.g. #punerains,#flood,#weatherupdate)
+
 
 public class Tweet {
     private String subject;
     private LocalDate date;
-    private int noOfViews;
+    private Long noOfViews;
     private Set<String> hashTags;
 
-    public Tweet(String subject, LocalDate date, int noOfViews, Set<String> hashTags) {
+    Tweet(String subject, LocalDate date, Long noOfViews, Set<String> hashTags) {
         this.subject = subject;
         this.date = date;
         this.noOfViews = noOfViews;
@@ -31,11 +40,11 @@ public class Tweet {
         this.date = date;
     }
 
-    public int getNoOfViews() {
+    public Long getNoOfViews() {
         return noOfViews;
     }
 
-    public void setNoOfViews(int noOfViews) {
+    public void setNoOfViews(Long noOfViews) {
         this.noOfViews = noOfViews;
     }
 
@@ -47,12 +56,12 @@ public class Tweet {
         this.hashTags = hashTags;
     }
 
+
     @Override
     public String toString() {
         return "subject='" + subject + '\'' +
-                ", date='" + date + '\'' +
+                ", date=" + date +
                 ", noOfViews=" + noOfViews +
-                ", hashTags=" + hashTags ;
+                ", hashTags=" + hashTags;
     }
-
 }
