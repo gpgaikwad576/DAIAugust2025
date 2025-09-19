@@ -76,13 +76,14 @@ class Sundae:
         return cost
 
 class Cart:
+    items_in_cart={}
     def __init__(self,*it):
         if(len(it)%2 != 0):
             print("You have not entered either item or its count")
             return False
 
         for i in range(0,len(it),2):
-            self.items[it[i]] = it[i+1]
+            self.items_in_cart[it[i]] = it[i+1]
         return True
 
     def add_item(self,*it):
@@ -90,51 +91,70 @@ class Cart:
             print("You have not entered, either item or its count")
             return False
         for i in range(0, len(it), 2):
-            self.items[it[i]] = it[i + 1]
+            self.items_in_cart[it[i]] = it[i + 1]
         return True
 
 
     def remove_item(self,*delItems):
         try:
             for item in delItems:
-                if(item in self.items.keys()):
-                    self.items[item]-=1
-                    if(self.items[item] == 0):
-                        self.items.remove(item)
+                if(item in self.items_in_cart.keys()):
+                    self.items_in_cart[item]-=1
+                    if(self.items_in_cart[item] == 0):
+                        self.items_in_cart.remove(item)
             return True
         except Exception as e:
             print(e)
             return False
+        
+    def __repr__(self):
+        return f"{self.items_in_cart}"
 
 
 class Checkout:
     @staticmethod
-    def enter_in_cash_register(self,cart):
-        if(len(cart.items) == 0):
+    def enter_in_cash_register(cart):
+        if(len(cart.items_in_cart) == 0):
             print("Cart is empty")
             return False
 
-        if (len(cart.items) % 2 != 0):
+        if (len(cart.items_in_cart) % 2 != 0):
             print("You have not entered, either item or its count")
             return False
 
-        for item in  cart.items.items():
-            cash_register.items[item.getKey()] = item.getValue()
+        for item in  cart.items_in_cart.items():
+            cash_register[item.getKey()] = item.getValue()
 
         return True
 
     @staticmethod
     def clear_cashregister():
-        cash_register.
+        try:
+            cash_register.clear()
+        except Exception as e:
+            print(f"Internal Error: {e}")
 
     @staticmethod
-    def get_number_items():
+    def get_number_items(cart):
+        cnt=0
+        for v in cart.items_in_cart.values():
+            cnt+=v
+        return cnt
+            
 
     @staticmethod
-    def get_totalcost_items():
+    def get_totalcost_items(cart):
+        cost=0
+        for item,quantity in cart.items_in_cart.items():
+            cost+=item.get_items_cost(quantity)
+        return cost
 
     @staticmethod
-    def get_cart_details():
+    def get_cart_details(cart):
+        return cart
+
+
+        
 
 
 

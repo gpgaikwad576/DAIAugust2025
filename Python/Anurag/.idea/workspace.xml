@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/Class Methods.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/File Handling/FileHandle.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/Day1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/classcode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/classCode.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/assig1/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig1/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day7/practice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day7/practice.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/classCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/classCode.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +88,8 @@
       <workItem from="1758166361497" duration="7798000" />
       <workItem from="1758175334753" duration="227000" />
       <workItem from="1758175576921" duration="59000" />
+      <workItem from="1758249738551" duration="7660000" />
+      <workItem from="1758267084833" duration="3118000" />
     </task>
     <servers />
   </component>
