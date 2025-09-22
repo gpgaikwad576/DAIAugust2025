@@ -1,5 +1,5 @@
 import pymysql as p
-from day9.EmployeeDb.Employee import Employee
+from day9_db_conn.EmployeeDb.Employee import Employee
 
 
 class DBHandler:
