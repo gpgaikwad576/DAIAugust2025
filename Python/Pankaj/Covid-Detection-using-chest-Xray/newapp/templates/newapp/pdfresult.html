@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>pdfresult</title>
+      <style>
+            aside {
+              width: 30%;
+              padding-left: 15px;
+              margin-left: 15px;
+              text-align: right;
+              font-style: italic;
+              
+            }
+
+            
+      </style>
+  </head>
+  <body>
+    <header >
+      <p style="font-size:40px; color:red">Covid Detection</p>
+      <div style="background-color: lightgray;">
+         <h1>Email:coviddetect@gmail.com<br>
+          Contact:91xxxxxxxx7
+        </h1>
+      </div>
+       
+       
+    </header>
+    <hr>
+    <hr>
+    <main>
+      <aside>
+        <p style="font-size:20px">Report No.: {{reportno}} </p>
+        <p style="font-size:20px">Time: {{Datetime}} </p>
+      </aside>
+      <p style="font-size:30px">Username: {{username}} </p>
+      
+      <p style="font-size:30px">Patient Name: {{firstname}} {{lastname}} </p>
+      
+      
+      <p style="font-size:30px">Age: {{Age}} </p>
+      <p style="font-size:30px">Gender: {{gender}} </p>
+      <div style="margin-left:200px;">
+        <img   src='{{filepathname.image.path}}' height="300" width="300">
+      </div>
+      
+      <p style="font-size:30px; color:green">Diagnosis: {{ans0}} </p>
+      <p style="font-size:20px; ">Methodology:</p>
+      <p style="font-size:20px; ">AI-powered X-ray Detection</p>
+      <aside>
+        <p style="font-size:20px">sd/-</p>
+         <p style="font-size:20px">Signature</p>
+      </aside>
+      
+    </main>
+  </body>
+</html>

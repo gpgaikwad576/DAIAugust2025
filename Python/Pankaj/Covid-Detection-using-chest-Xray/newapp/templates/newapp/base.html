@@ -1,0 +1,166 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{% static 'newapp/mini_intro.css' %}">
+    <style>
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top:20px;
+}
+
+            
+        
+</style>
+    {% if title %}
+        <title>{{ title }}</title>
+    {% else %}
+        <title>Django</title>
+    {% endif %}
+</head>
+<body>
+    <header class="site-header" style="position:sticky; z-index:1000;">
+      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+        <div class="container">
+          
+          <a class="navbar-brand mr-4" href="#">Covid-19 Detection</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarToggle">
+            <div class="navbar-nav mr-auto">
+              
+              <a class="nav-item nav-link" href="{% url 'intro' %}">About Us</a>
+            </div>
+            <!-- Navbar Right Side -->
+            <div class="navbar-nav">
+              <div class="navbar-nav">
+              
+                
+              
+                
+              
+               {% if user.is_authenticated %}
+                <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                <a class="nav-item nav-link" href="{% url 'details' %}">Profile</a>
+                {% else %}
+                <a class="nav-item nav-link" href="{% url 'login' %}">LogIn</a>
+                <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                {% endif %}
+                
+              
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main role="main" class="container">
+      <div class="row">
+        <div class="col-md-8">
+
+          {% if messages %}
+            {% for message in messages %}
+              <div class="alert alert-{{ message.tags }}">
+                {{ message }}
+              </div>
+            {% endfor %}
+          {% endif %}
+
+          {% block content %}
+            {% if request.path == '/' %}
+              <h2>AI-powered Covid-19 Detection using X-ray images</h2>
+              <br>
+              <br>
+              <h5>
+                With the mission to defeat coronavirus, we the students of Sardar Patel Institute of Technology had developed this website for the rapid testing of Covid-19 cases. Ensuring high accuracy results using less amount of time. This website is completely free to use to support our covid warriors in this pandemic.
+                <br></br>
+                The AI models are tested on thousands of images to ensure a high probability of giving accurate result. Our product identifies whether the patient has Covid, Pneumonia, Normal or any other Lung Infection. The only requirement to use this website is that you must have a photocopy of the recently taken chest X-Ray image, both posteroanterior and anteroposterior type of images will work for the models.
+
+              </h5>
+              <br></br>
+              <br></br>
+              <img class="side-img" src="{% static 'newapp/stay.png' %}">
+            {% endif %}
+          {% endblock %}
+        </div>
+        <div class="col-md-4">
+        <div class="sticky" >
+          
+      {% if request.path == '/' %}
+      
+      <img id="front-img" src="{% static 'newapp/nurse2.png' %}">
+      <br></br>
+      <br></br>
+      <div class="content-section">
+      <p id="count-section">Total X-ray checks: {{ check }}</p>
+  
+      <p id='count-section'>Covid Detections: {{covid}}</p>
+      
+      <p id='count-section'>Pneum. Detections: {{pneum}}</p>
+      
+      <p id='count-section'>Normal Detections: {{normal}}</p>
+      
+      <p id='count-section'>Other lung Infections: {{other}}</p>
+      </div>
+      
+      {% elif request.path == '/login/' %}<img class="side-img" src="{% static 'newapp/stop.png' %}">
+      {% elif request.path == '/register/' %}<img class="side-img" src="{% static 'newapp/sword.jpeg' %}">
+      {% elif request.path == '/main/' %}<img class="side-img" src="{% static 'newapp/rapte.jpeg' %}">
+      {% else %}<img class="side-img" src="{% static 'newapp/vaccine.png' %}">
+      {% endif %}
+          
+          
+          
+          
+        </div>
+        </div>
+        
+      </div>
+
+        
+      
+    </main>
+    <div class="text-center"> 
+    <footer class="container-fluid bg-steel text-center">
+
+      <div class="container-fluid  text-center">  
+        <div class="footer-content">
+          <p>Covid Detection</p> 
+        </div>
+        
+        <div class="footer-content">
+          <p>Copyright@2020 covid detection,Inc</p>
+        </div>
+        
+        <div >
+          <div class="footer-content"><a href="https://wa.me/+919137870470?text=Thank%20You%20sir"><img src="https://img.icons8.com/office/40/000000/whatsapp--v2.png"/></a></div >
+          <br>
+          <div class="footer-content"><a><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a></div >
+          <br>
+          <div class="footer-content"><img src="https://img.icons8.com/ios/50/000000/instagram-new--v3.png"/></div >
+        </div>
+      </div>
+      
+
+
+    </footer>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

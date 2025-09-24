@@ -1,0 +1,50 @@
+
+{% extends "newapp/base.html" %}
+{% load static %}
+ 
+{% block content %}
+	{%if messages %}
+	  {%for message in messages %}
+	    {{message}}
+	  {%endfor%}
+	{%endif%}
+	<h2>Total xray checks: {{ check }}</h2>
+	
+	<h2>Covid Detections: {{covid}}</h2>
+	
+	<h2>Pneum Detections: {{pneum}}</h2>
+	
+	<h2>normal Detections: {{normal}}</h2>
+	
+	<h2>other: {{other}}</h2>
+	
+
+	<h2>Brainpower
+Published in Nature Communications
+
+How does our brain strengthen memories? It is long known that while we sleep, our brain reactivates previously learnt information and solidifies memories in the neocortical long-term stores. A new study has now shown an intricate interplay of brain activities that enables this reactivation. They noted that two patterns (slow oscillations, sleep spindles) that occur during our non-rapid eye movement sleep play an important role.
+
+New carbon
+Published in Science
+
+
+The quest for new carbon allotropes (different forms of the same element) other than graphene has kept scientists busy for years. New carbon networks such as graphenylene and biphenylene have been predicted to have better mechanical, electronic, and transport properties. An international team of researchers has now synthesised an ultra-flat biphenylene network made up of four-, six-, and eight-membered rings of carbon atoms.
+
+Clownfish clues
+Published in PNAS
+
+A clown fish at the Aquarium of the Pacific in Long Beach, California, on April 26, 2012.
+A clown fish at the Aquarium of the Pacific in Long Beach, California, on April 26, 2012.   | Photo Credit: AFP
+ 
+Clownfish, star of the movie Finding Nemo, dons an orange coat with white stripes. A new study has now found how these stripes are formed. The international team found that thyroid hormones regulate the white bar formation and the speed at which these bars are formed depends on the species of sea anemone in which the clownfish live.
+
+Wallaby conservation
+Published in Current Biology
+
+A novel conservation strategy known as ‘headstarting’ has saved the population of bridled nailtail wallabies from the brink of extinction. In this method, young wallabies were isolated from their main predators - feral cats - during the critical early life stage before being returned to the wild. The paper notes that this improves juvenile survival and this method can be recruited in populations facing a high level of threats.
+
+Cocaine catastrophe</h2>
+{% endblock %}
+ 
+
+ 

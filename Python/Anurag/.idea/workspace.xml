@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Class_Concepts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Class_Concepts/class_concepts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Mysql/Final project for sql.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Mysql/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Mysql/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Mysql/databaseConnectivity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonvenvPrac/Mysql/mysqlconnectivity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/Class Methods.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Class_Concepts/class_concepts/Class Methods.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Class Concepts/classCode.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Class_Concepts/class_concepts/classCode.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/File Handling/FileHandle.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/File Handling/FileHandle.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day8/practice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day8/practice.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/home/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/demo_proj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/demo_proj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/demo_proj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/demo_proj/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,9 @@
     &quot;Python.Main.executor&quot;: &quot;Run&quot;,
     &quot;Python.databaseConnectivity.executor&quot;: &quot;Run&quot;,
     &quot;Python.mysqlconnectivity.executor&quot;: &quot;Run&quot;,
+    &quot;Python.views.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
@@ -108,6 +109,10 @@
       <workItem from="1758341466363" duration="10867000" />
       <workItem from="1758378370807" duration="3766000" />
       <workItem from="1758382211166" duration="12000" />
+      <workItem from="1758596642695" duration="1108000" />
+      <workItem from="1758598827988" duration="1180000" />
+      <workItem from="1758602954120" duration="87000" />
+      <workItem from="1758693767410" duration="417000" />
     </task>
     <servers />
   </component>
@@ -116,6 +121,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Anurag$databaseConnectivity.coverage" NAME="databaseConnectivity Coverage Results" MODIFIED="1758359742697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonvenvPrac/Mysql" />
+    <SUITE FILE_PATH="coverage/Anurag$views.coverage" NAME="views Coverage Results" MODIFIED="1758603002307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/home" />
     <SUITE FILE_PATH="coverage/Anurag$Main.coverage" NAME="Main Coverage Results" MODIFIED="1758379875148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonvenvPrac/Mysql" />
     <SUITE FILE_PATH="coverage/Anurag$mysqlconnectivity.coverage" NAME="mysqlconnectivity Coverage Results" MODIFIED="1758342119294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonvenvPrac/Mysql" />
   </component>
