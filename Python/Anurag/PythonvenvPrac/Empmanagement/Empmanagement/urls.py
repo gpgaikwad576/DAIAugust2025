@@ -22,9 +22,11 @@ urlpatterns = [
     path("",views.main,name="Main"),
     path('create/',views.create,name="create"),
     path('sucess/',views.insert,name="insert"),
+    path("retupdate/",views.update),
     path('read/',views.read,name="read"),
-    path('update/',views.Update,name='update'),
+    path('update/',views.update,name='update'),
     path('delete/',views.Delete,name='delete'),
+    path('getemp/',views.getemp,name="getemp"),
     path('admin/', admin.site.urls),
 
 ]

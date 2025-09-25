@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: rgba(255,255,255,0.95);
+            padding: 48px 36px 36px 36px;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(44, 62, 80, 0.15);
+            text-align: center;
+            min-width: 340px;
+        }
+        .container h1 {
+            font-size: 2.3rem;
+            font-weight: 700;
+            color: #2d3e50;
+            margin-bottom: 32px;
+            letter-spacing: 1px;
+        }
+        .buttons-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        .crud-button {
+            display: block;
+            width: 220px;
+            padding: 15px 0;
+            font-size: 1.08rem;
+            font-weight: 600;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: box-shadow 0.2s, transform 0.2s, background 0.3s;
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+        }
+        .crud-button.create {
+            background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+        }
+        .crud-button.create:hover {
+            background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 4px 16px rgba(67, 233, 123, 0.15);
+        }
+        .crud-button.read {
+            background: linear-gradient(90deg, #396afc 0%, #2948ff 100%);
+        }
+        .crud-button.read:hover {
+            background: linear-gradient(90deg, #2948ff 0%, #396afc 100%);
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 4px 16px rgba(41, 72, 255, 0.15);
+        }
+        .crud-button.update {
+            background: linear-gradient(90deg, #f7971e 0%, #ffd200 100%);
+            color: #333;
+        }
+        .crud-button.update:hover {
+            background: linear-gradient(90deg, #ffd200 0%, #f7971e 100%);
+            color: #222;
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 4px 16px rgba(255, 210, 0, 0.15);
+        }
+        .crud-button.delete {
+            background: linear-gradient(90deg, #ff5858 0%, #f857a6 100%);
+        }
+        .crud-button.delete:hover {
+            background: linear-gradient(90deg, #f857a6 0%, #ff5858 100%);
+            transform: translateY(-2px) scale(1.03);
+            box-shadow: 0 4px 16px rgba(255, 88, 88, 0.15);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Employee Management System</h1>
+    <div class="buttons-container">
+        <a href="/create/" class="crud-button create">Create Employee</a>
+        <a href="/read/" class="crud-button read">Read Data</a>
+        <a href="/update/" class="crud-button update">Update</a>
+        <a href="/delete/" class="crud-button delete">Delete Data</a>
+    </div>
+    <div style="margin-top:32px; color:#888; font-size:0.98rem;">
+        <span>Manage your employees with ease and style.</span>
+    </div>
+</div>
+
+</body>
+</html>

@@ -76,8 +76,13 @@ WSGI_APPLICATION = 'Empmanagement.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': "pgdai_anurag",
+        'USER':"root",
+        'PASSWORD': "Anurag@1",
+        'HOST': "localhost",
+        'PORT':3306,
+
     }
 }
 

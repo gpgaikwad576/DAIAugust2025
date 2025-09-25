@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Create Employee</title>
+	<style>
+		body {
+			font-family: 'Segoe UI', Arial, sans-serif;
+			background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+			min-height: 100vh;
+			margin: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.form-container {
+			background: rgba(255,255,255,0.97);
+			padding: 40px 32px 32px 32px;
+			border-radius: 16px;
+			box-shadow: 0 8px 32px rgba(44, 62, 80, 0.13);
+			min-width: 340px;
+		}
+		h2 {
+			text-align: center;
+			color: #2d3e50;
+			margin-bottom: 28px;
+			font-size: 2rem;
+		}
+		form {
+			display: flex;
+			flex-direction: column;
+			gap: 18px;
+		}
+		label {
+			font-weight: 600;
+			color: #444;
+			margin-bottom: 6px;
+		}
+		input[type="text"], input[type="number"] {
+			padding: 10px;
+			border-radius: 6px;
+			border: 1px solid #bcdff1;
+			font-size: 1rem;
+			background: #f7fbff;
+			transition: border 0.2s;
+		}
+		input[type="text"]:focus, input[type="number"]:focus {
+			border: 1.5px solid #396afc;
+			outline: none;
+		}
+		.submit-btn {
+			background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);
+			color: #fff;
+			font-weight: 700;
+			border: none;
+			border-radius: 8px;
+			padding: 13px 0;
+			font-size: 1.08rem;
+			cursor: pointer;
+			transition: background 0.3s, box-shadow 0.2s, transform 0.2s;
+			box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+		}
+		.submit-btn:hover {
+			background: linear-gradient(90deg, #38f9d7 0%, #43e97b 100%);
+			transform: translateY(-2px) scale(1.03);
+			box-shadow: 0 4px 16px rgba(67, 233, 123, 0.13);
+		}
+	</style>
+</head>
+<body>
+	<div class="form-container">
+		<h2>Create Employee</h2>
+		<form action="/sucess/" method="post">
+			{% csrf_token %}
+			<label for="empid">Employee ID</label>
+			<input type="text" id="empid" name="empid" required>
+
+			<label for="empname">Employee Name</label>
+			<input type="text" id="empname" name="empname" required>
+
+			<label for="empdsalary">Employee Salary</label>
+			<input type="number" id="empdsalary" name="empdsalary" min="0" step="0.01" required>
+
+			<button type="submit" class="submit-btn">Submit</button>
+		</form>
+	</div>
+</body>
+</html>

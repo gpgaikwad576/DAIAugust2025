@@ -6,16 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/home/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/home/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/djangotutorial/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/demo_proj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/demo_proj/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/demo_proj/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/demo_proj/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/day10_django/demo_proj/home/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Employee/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Employee/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/templates/Delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/templates/Delete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/templates/Read.html" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/templates/Read.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/templates/Update.html" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/templates/Update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/Empmanagement/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/PythonvenvPrac/Empmanagement/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/.idea/dataSources.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +111,9 @@
       <workItem from="1758598827988" duration="1180000" />
       <workItem from="1758602954120" duration="87000" />
       <workItem from="1758693767410" duration="417000" />
+      <workItem from="1758768814685" duration="32000" />
+      <workItem from="1758768903479" duration="20000" />
+      <workItem from="1758769285132" duration="1535000" />
     </task>
     <servers />
   </component>

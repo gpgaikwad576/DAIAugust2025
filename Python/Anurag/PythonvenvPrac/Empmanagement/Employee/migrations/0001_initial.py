@@ -15,8 +15,8 @@ class Migration(migrations.Migration):
             name='Employee',
             fields=[
                 ('empid', models.IntegerField(default=0, primary_key=True, serialize=False)),
-                ('empname', models.CharField()),
-                ('empsalary', models.FloatField()),
+                ('empname', models.CharField(default="",max_length=200)),
+                ('empsalary', models.FloatField(default=0.0)),
             ],
         ),
     ]
