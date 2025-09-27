@@ -1,4 +1,7 @@
+from jinja2.utils import concat
+
 from .Employee import Employee
+import json
 
 class MarketingExec(Employee):
     __phone_allow =1000
@@ -25,5 +28,7 @@ class MarketingExec(Employee):
 
     @property
     def travel_allow(self):
-        return self.__tavel_allow
+        return self.__travel_allow
 
+    def __repr__(self):
+        return json.dumps({**json.loads(super().__repr__()),"travel_allow":self.__travel_allow})

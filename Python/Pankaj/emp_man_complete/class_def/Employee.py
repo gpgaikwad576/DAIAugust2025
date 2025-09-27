@@ -16,21 +16,20 @@
 # (1) calculate gross and net salary of Marketing Executive
 # 2) display details
 # (phoneAllowance=1000, travelAllowance= 5* kmsTravelled
+import json
 
 class Employee:
-    _eid = 0
+    __iter_eid =1
     _pt = 200
     _ma = 1000
     def __init__(self,name:str,basic_sal:int):
-        Employee._eid += 1
+        self._eid = Employee.__iter_eid
         self._name = name
         self._basic_sal = basic_sal
         self._pf = 0.12 * self._basic_sal
         self._hra = 0.5 * self._basic_sal
+        Employee.__iter_eid+=1
 
-    @classmethod
-    def get_eid(cls):
-        return cls._eid
 
     @classmethod
     def get_pt(cls):
@@ -48,6 +47,10 @@ class Employee:
     def change_ma(cls,value:int):
         cls._ma = value
 
+
+    @property
+    def eid(self):
+        return self._eid
 
     @property
     def name(self):
@@ -90,7 +93,9 @@ class Employee:
         return self.calc_gross()-self._pf-self._pt
 
     def __repr__(self):
-        return str({"eid":self._eid,"name":self._name,"basic_sal":self._basic_sal})
+        return json.dumps({"eid":self._eid,"name":self._name,"basic_sal":self._basic_sal})
+        # return {"eid":self._eid,"name":self._name,"basic_sal":self._basic_sal}
+
 
 
 

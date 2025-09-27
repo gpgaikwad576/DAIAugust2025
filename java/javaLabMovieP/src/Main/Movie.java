@@ -3,7 +3,8 @@ package Main;
 import java.time.LocalDate;
 
 public class Movie {
-    private static long id = 1;
+    private static long iterId=1;
+    private final long id;
     private String title;
     Genre genre;
     int relYear;
@@ -14,7 +15,7 @@ public class Movie {
     LocalDate lastWatchedDate;
 
     public Movie(String title, Genre genre, int relYear, LocalDate addedDate, boolean availabilitytatus, long price, int discount, LocalDate lastWatchedDate) {
-        this.id = this.id + 1;
+        this.id = iterId;
         this.title = title;
         this.genre = genre;
         this.relYear = relYear;
@@ -23,6 +24,7 @@ public class Movie {
         this.price = price;
         this.discount = discount;
         this.lastWatchedDate = lastWatchedDate;
+        iterId+=1;
     }
 
 //    public long getId() {

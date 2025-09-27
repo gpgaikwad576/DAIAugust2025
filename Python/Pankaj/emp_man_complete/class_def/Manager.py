@@ -1,4 +1,5 @@
 from .Employee import Employee
+# import json
 
 class Manager(Employee):
     def __init__(self,name:str,basic_sal:int):
@@ -35,6 +36,7 @@ class Manager(Employee):
     def calc_nett(self):
         return self.calc_gross() - self._pf - self._pt
 
-
+    # def __repr__(self):
+    #     return str({**json.loads(super().__repr__()),"man_allow":self.__man_allow,"food_allow":self.__food_allow,"other_allow":self.__other_allow})
 
 
