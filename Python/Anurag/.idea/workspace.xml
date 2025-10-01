@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/numpy/practice/numpypracticebasic.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAssigment1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pack1/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pack1/calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pack2/Main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pack2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day7 employee heir library/employee/Employee.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day7 employee heir library/employee/Manager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/day7 employee heir library/employee/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/numpy/practice/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/emp_man_complete/class_def/Employee.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/emp_man_complete/class_def/Employee.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +108,7 @@
       <workItem from="1758769285132" duration="1535000" />
       <workItem from="1758864402878" duration="3738000" />
       <workItem from="1758868442107" duration="90000" />
+      <workItem from="1759289412373" duration="41000" />
     </task>
     <servers />
   </component>
