@@ -4,6 +4,7 @@ from assig3.dessert_items.Cookie import Cookie
 from assig3.dessert_items.IceCream import IceCream
 from assig3.dessert_items.Sundae import Sundae
 from assig3.dessert_items.Toppings import Toppings
+from assig3.exceptions.AmountInvalidException import AmountInvalidException
 
 # Write an application in support which sells candy by kg, cookies by dozen, ice-creams and sundae
 # your application will be used for checkout system
@@ -81,7 +82,10 @@ while True:
     opt = int(input("Enter an option: "))
     match opt:
         case 1:
-            Checkout.add_item({c1:100,c2:200,ck1:3,i1:1,i2:2,s1:1})
+            try:
+                Checkout.add_item({c1:0,c2:200,ck1:3,i1:1,i2:2,s1:1})
+            except AmountInvalidException as e:
+                print("Exception: ",e)
         case 2:
             Checkout.clear_cash_reg()
         case 3:
