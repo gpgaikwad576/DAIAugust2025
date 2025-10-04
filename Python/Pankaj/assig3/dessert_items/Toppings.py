@@ -1,10 +1,9 @@
 
 
 class Toppings:
-    def __init__(self, name: str, price: int,quantity:int):
+    def __init__(self, name: str, price: int):
         self.__name = name
         self.__price = price
-        self.__quantity = quantity
 
     @property
     def name(self):
@@ -22,14 +21,9 @@ class Toppings:
     def price(self, value: int):
         self.__price = value
 
-    @property
-    def quantity(self):
-        return self.__quantity
-
-    @quantity.setter
-    def quantity(self, value:int):
-        self.__quantity = value
-
     def get_cost(self):
-        return self.__quantity * self.__price / 1000
+        return self.__price / 1000
+
+    def __repr__(self):
+        return {"name": self.__name}
 

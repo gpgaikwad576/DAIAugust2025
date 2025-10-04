@@ -2,9 +2,9 @@ from assig3.dessert_items.DessertItem import DessertItem
 
 
 class Cookie(DessertItem):
-    def __init__(self, name: str, price: int,quantity: int):
-        super().__init__(name, price,quantity)
+    def __init__(self, name: str, price: int):
+        super().__init__(name, price)
 
     def get_cost(self):
-        return self._quantity * self._price / 12
+        return self._price / 12
 

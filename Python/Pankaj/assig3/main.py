@@ -1,3 +1,9 @@
+from assig3.Checkout import Checkout
+from assig3.dessert_items.Candy import Candy
+from assig3.dessert_items.Cookie import Cookie
+from assig3.dessert_items.IceCream import IceCream
+from assig3.dessert_items.Sundae import Sundae
+from assig3.dessert_items.Toppings import Toppings
 
 # Write an application in support which sells candy by kg, cookies by dozen, ice-creams and sundae
 # your application will be used for checkout system
@@ -32,6 +38,67 @@
 # cases raising these
 #
 # exceptions)
+#json loads data from str to dict
+#json dumps dict to str
+
+#create later: enum for different dessert and flavours
+#write input for entering details of add item
+
+def display_items(items_list):
+    items =""
+    for item in items_list:
+        items+=str(item)+"\n"
+    return items
+
+
+
+
+
+
+
+c1 = Candy("chinese",1000)
+c2 = Candy("cotton",2000)
+ck1 = Cookie("dark fantasey",12)
+i1 = IceCream("vanilla",10)
+i2 = IceCream("mango",20)
+
+t1 = Toppings("choclate",1000)
+t2 = Toppings("strawberry",1000)
+
+s1 = Sundae("Vanilla Sundae",{t1:200,t2:300})
+
+print("--------------------------------")
+print("Enter 1 for adding an item\n")
+print("Enter 2 for clearing cash register\n")
+print("Enter 3 for getting number of items in the cart\n")
+print("Enter 4 for getting total cost of the items\n")
+print("Enter 5 for getting cash register(cart)\n")
+print("Enter 6 for getting invoice\n")
+print("Leave it Empty or enter any other key to Exit \n")
+print("--------------------------------")
+
+while True:
+    opt = int(input("Enter an option: "))
+    match opt:
+        case 1:
+            Checkout.add_item({c1:100,c2:200,ck1:3,i1:1,i2:2,s1:1})
+        case 2:
+            Checkout.clear_cash_reg()
+        case 3:
+            print(Checkout.get_number_of_items())
+        case 4:
+            try:
+                print(Checkout.get_total_cost())
+            except Exception as e:
+                print("Exception as: ",e)
+        case 5:
+            print(display_items(Checkout.get_cash_register()))
+        case 6:
+            print(display_items(Checkout.get_cash_register())+str(Checkout.get_total_cost()))
+        case 0:
+            break
+
+
 
 
 

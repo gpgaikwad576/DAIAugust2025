@@ -29,7 +29,7 @@ public class Admin {
         System.out.println("2. Add movie");
         System.out.println("3. Update Availability");
         System.out.println("4. Apply Discount");
-        System.out.println("5. Remove unwached movies");
+        System.out.println("5. Remove unwatched movies");
         System.out.println("6. exit");
 
         try {

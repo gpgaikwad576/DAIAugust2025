@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpyPandas/Grapths/assigment.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpyPandas/Visualization/assigment.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpyPandas/Grapths/final EDA.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpyPandas/Visualization/final EDA.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpyPandas/Grapths/matplot.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/numpyPandas/Visualization/matplot.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/Checkout.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/Checkout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/Candy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/Candy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/Cookie.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/Cookie.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/DessertItem.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/DessertItem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/IceCream.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/IceCream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/Sundae.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/Sundae.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/Toppings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/dessert_items/Toppings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pankaj/assig3/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/assig3/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/javaLabMovieP/src/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/javaLabMovieP/src/Admin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +80,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
         <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
       </set>
     </attachedChunks>
@@ -109,6 +121,8 @@
       <workItem from="1758864402878" duration="3738000" />
       <workItem from="1758868442107" duration="90000" />
       <workItem from="1759289412373" duration="41000" />
+      <workItem from="1759459867160" duration="6607000" />
+      <workItem from="1759547942956" duration="122000" />
     </task>
     <servers />
   </component>
