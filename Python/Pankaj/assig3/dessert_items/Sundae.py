@@ -1,7 +1,6 @@
 import json
 
 from assig3.dessert_items.IceCream import IceCream
-from assig3.dessert_items.Toppings import Toppings
 
 
 class Sundae(IceCream):
