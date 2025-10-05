@@ -90,7 +90,7 @@ class Employee:
         return self._basic_sal + self._hra +self._ma
 
     def calc_nett(self):
-        return self.calc_gross()-self._pf-self._pt
+        return self.calc_gross()-self._pf-Employee._pt
 
     def __repr__(self):
         return json.dumps({"eid":self._eid,"name":self._name,"basic_sal":self._basic_sal})

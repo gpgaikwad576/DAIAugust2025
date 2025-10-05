@@ -4,9 +4,9 @@ from .Employee import Employee
 class Manager(Employee):
     def __init__(self,name:str,basic_sal:int):
         super().__init__(name,basic_sal)
-        self.__man_allow = 0.08* basic_sal
-        self.__food_allow = 0.1* basic_sal
-        self.__other_allow = 0.03* basic_sal
+        self.__man_allow = 0.08* self.basic_sal
+        self.__food_allow = 0.1* self.basic_sal
+        self.__other_allow = 0.03* self.basic_sal
 
 
     @property

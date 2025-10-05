@@ -45,45 +45,66 @@ from assig3.exceptions.AmountInvalidException import AmountInvalidException
 #create later: enum for different dessert and flavours
 #write input for entering details of add item
 
+#store:
+c1 = Candy("chinese",1000)
+c2 = Candy("cotton",2000)
+ck1 = Cookie("dark fantasey",12)
+i1 = IceCream("vanilla",10)
+i2 = IceCream("mango",20)
+t1 = Toppings("choclate",1000)
+t2 = Toppings("strawberry",1000)
+s1 = Sundae("Vanilla Sundae",{t1:200,t2:300})
+store={1:c1,2:c2,3:ck1,4:i1,5:i2,6:s1}
+
+#helper methods
 def display_items(items_list):
     items =""
     for item in items_list:
         items+=str(item)+"\n"
     return items
 
+def input_item():
+    purchase = {}
+    ip = input("Enter items(format: item1,quant1,item2,quant2,...):")
+    lst = ip.split(',')
+    # print(lst)
+    for i in range(0,len(lst),2):
+        # print(ip[i],ip[i+1])
+        purchase[store[int(lst[i])]]=int(lst[i+1])
+    return purchase
+
+def display_store():
+    for option,item in store.items():
+        print(str(item.__repr__())," option: ",option)
 
 
 
 
 
 
-c1 = Candy("chinese",1000)
-c2 = Candy("cotton",2000)
-ck1 = Cookie("dark fantasey",12)
-i1 = IceCream("vanilla",10)
-i2 = IceCream("mango",20)
-
-t1 = Toppings("choclate",1000)
-t2 = Toppings("strawberry",1000)
-
-s1 = Sundae("Vanilla Sundae",{t1:200,t2:300})
-
+#main:
+print("This is the store currently has(option:item)")
+display_store()
 print("--------------------------------")
-print("Enter 1 for adding an item\n")
-print("Enter 2 for clearing cash register\n")
-print("Enter 3 for getting number of items in the cart\n")
-print("Enter 4 for getting total cost of the items\n")
-print("Enter 5 for getting cash register(cart)\n")
-print("Enter 6 for getting invoice\n")
-print("Leave it Empty or enter any other key to Exit \n")
+print("Enter 1 for adding items to cash Register(cart)")
+print("Enter 2 for clearing cash register")
+print("Enter 3 for getting number of items in the cart")
+print("Enter 4 for getting total cost of the items")
+print("Enter 5 for getting cash register(cart)")
+print("Enter 6 for getting invoice")
+print("Leave it Empty or enter any other key to Exit ")
 print("--------------------------------")
+
+
 
 while True:
     opt = int(input("Enter an option: "))
     match opt:
         case 1:
             try:
-                Checkout.add_item({c1:0,c2:200,ck1:3,i1:1,i2:2,s1:1})
+                purchase = input_item()
+                # Checkout.add_item({c1:0,c2:200,ck1:3,i1:1,i2:2,s1:1})
+                Checkout.add_item(purchase)
             except AmountInvalidException as e:
                 print("Exception: ",e)
         case 2:
