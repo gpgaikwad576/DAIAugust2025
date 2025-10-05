@@ -1,9 +1,8 @@
 from assig3.dessert_items.Candy import Candy
 from assig3.dessert_items.DessertItem import DessertItem
 import json
-
 from assig3.exceptions.CartIsEmptyException import CartIsEmptyException
-
+from assig3.exceptions.AmountInvalidException import AmountInvalidException
 
 class Checkout:
     __cash_register = {}  #aka cart
@@ -15,6 +14,7 @@ class Checkout:
     @classmethod
     def add_item(cls,items_quant):
         for item,quant in items_quant.items():
+            if(quant == 0): raise AmountInvalidException("Invalid amount")
             cls.__cash_register[item] = quant
 
 
