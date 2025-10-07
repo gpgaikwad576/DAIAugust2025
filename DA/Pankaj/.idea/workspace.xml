@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940630b9-48ab-4de7-ad99-d2f7dca3d0e2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assig1/assig1_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assig1/assig1_1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +41,12 @@
     &quot;assignee&quot;: &quot;SatyamShivamCDAC&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/gpgaikwad576/DAIAugust2025&quot;,
-    &quot;accountId&quot;: &quot;7fcc673c-b3fa-4232-82f6-80cb6b49e6dc&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://gpgaikwad576@github.com/gpgaikwad576/DAIAugust2025.git",
+    "accountId": "7fcc673c-b3fa-4232-82f6-80cb6b49e6dc"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -91,6 +92,7 @@
       <workItem from="1759597339098" duration="3281000" />
       <workItem from="1759823764786" duration="5266000" />
       <workItem from="1759848146670" duration="5000" />
+      <workItem from="1759848528075" duration="4182000" />
     </task>
     <servers />
   </component>
