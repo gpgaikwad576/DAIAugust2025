@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/day3/practice.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/day3/practice.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/assig1_1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assig1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assig1/assig1_1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assig2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assig2/assig2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/assig2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigments/Assigment3 (2).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assigments/Assigment3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Analysis/days/day2/matches.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/days/day2/matches.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data Analysis/days/day2/pandas2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/days/day2/pandas2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pankaj/labExamPract/array slicing, string man, regEx.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/labExamPract/array slicing, string man, regEx.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +80,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
         <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
       </set>
     </attachedChunks>
@@ -113,6 +124,14 @@
       <workItem from="1759289412373" duration="41000" />
       <workItem from="1759459867160" duration="6607000" />
       <workItem from="1759547942956" duration="122000" />
+      <workItem from="1759823764786" duration="11101000" />
+      <workItem from="1759891276154" duration="7693000" />
+      <workItem from="1759903507457" duration="16000" />
+      <workItem from="1759911180978" duration="6390000" />
+      <workItem from="1759917660046" duration="68000" />
+      <workItem from="1759917749619" duration="48000" />
+      <workItem from="1759978543189" duration="954000" />
+      <workItem from="1759980807950" duration="10482000" />
     </task>
     <servers />
   </component>

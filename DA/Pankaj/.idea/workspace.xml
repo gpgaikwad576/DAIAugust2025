@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940630b9-48ab-4de7-ad99-d2f7dca3d0e2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assigs/assig1_1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assig1/assig1_1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assig1/assig1_1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assig1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assig1/assig1_1.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assig2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assig2/assig2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/assig2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Assigments/Assigment3 (2).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Assigments/Assigment3.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/days/day2/matches.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/days/day2/matches.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/days/day2/pandas2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/days/day2/pandas2.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Pankaj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Pankaj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Pankaj/labExamPract/array slicing, string man, regEx.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Pankaj/labExamPract/array slicing, string man, regEx.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +53,12 @@
     &quot;assignee&quot;: &quot;SatyamShivamCDAC&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://gpgaikwad576@github.com/gpgaikwad576/DAIAugust2025.git",
-    "accountId": "7fcc673c-b3fa-4232-82f6-80cb6b49e6dc"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://gpgaikwad576@github.com/gpgaikwad576/DAIAugust2025.git&quot;,
+    &quot;accountId&quot;: &quot;7fcc673c-b3fa-4232-82f6-80cb6b49e6dc&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 3
@@ -59,21 +71,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;http.proxy&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DAIAugust2025\DA\Pankaj\assigs" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -93,6 +110,13 @@
       <workItem from="1759823764786" duration="5266000" />
       <workItem from="1759848146670" duration="5000" />
       <workItem from="1759848528075" duration="4182000" />
+      <workItem from="1759903522363" duration="1544000" />
+      <workItem from="1759910980202" duration="166000" />
+      <workItem from="1759911159597" duration="18000" />
+      <workItem from="1759917805159" duration="6060000" />
+      <workItem from="1759923929411" duration="15934000" />
+      <workItem from="1759978500142" duration="16785000" />
+      <workItem from="1760020952171" duration="11359000" />
     </task>
     <servers />
   </component>
