@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/assig1_1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assig1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assig1/assig1_1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assig2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assig2/assig2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/assig2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assigments/Assigment3 (2).zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assigments/Assigment3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Analysis/days/day2/matches.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/days/day2/matches.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Analysis/days/day2/pandas2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/days/day2/pandas2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pankaj/labExamPract/array slicing, string man, regEx.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Pankaj/labExamPract/array slicing, string man, regEx.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +120,8 @@
       <workItem from="1759917749619" duration="48000" />
       <workItem from="1759978543189" duration="954000" />
       <workItem from="1759980807950" duration="10482000" />
+      <workItem from="1760064297761" duration="10451000" />
+      <workItem from="1760109684090" duration="24000" />
     </task>
     <servers />
   </component>

@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="940630b9-48ab-4de7-ad99-d2f7dca3d0e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assigs/assig1_1.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assig1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assig1/assig1_1.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assig2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assig2/assig2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/assig2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Assigments/Assigment3 (2).zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Assigments/Assigment3.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/days/day2/matches.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/days/day2/matches.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/days/day2/pandas2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/days/day2/pandas2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Pankaj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Pankaj/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Pankaj/labExamPract/array slicing, string man, regEx.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Pankaj/labExamPract/array slicing, string man, regEx.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,21 +59,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DAIAugust2025\DA\Pankaj\assigs" />
@@ -117,6 +105,8 @@
       <workItem from="1759923929411" duration="15934000" />
       <workItem from="1759978500142" duration="16785000" />
       <workItem from="1760020952171" duration="11359000" />
+      <workItem from="1760064274496" duration="17000" />
+      <workItem from="1760069032384" duration="25916000" />
     </task>
     <servers />
   </component>
