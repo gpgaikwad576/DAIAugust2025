@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="940630b9-48ab-4de7-ad99-d2f7dca3d0e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigs/assig3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/assig3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/theory.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day5/theory.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment5.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -62,6 +66,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.ddd.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -107,10 +112,17 @@
       <workItem from="1760020952171" duration="11359000" />
       <workItem from="1760064274496" duration="17000" />
       <workItem from="1760069032384" duration="25916000" />
+      <workItem from="1760152158768" duration="5608000" />
+      <workItem from="1760173348753" duration="5366000" />
+      <workItem from="1760191986827" duration="23000" />
+      <workItem from="1760333783524" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pankaj$ddd.coverage" NAME="ddd Coverage Results" MODIFIED="1760176972821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assigs" />
   </component>
 </project>

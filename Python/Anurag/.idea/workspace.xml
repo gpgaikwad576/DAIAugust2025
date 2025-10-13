@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assigs/assig3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/assig3.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/day6/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/day5/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/day6/theory.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/day5/theory.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment5.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +126,10 @@
       <workItem from="1759980807950" duration="10482000" />
       <workItem from="1760064297761" duration="10451000" />
       <workItem from="1760109684090" duration="24000" />
+      <workItem from="1760159184258" duration="7364000" />
+      <workItem from="1760173429000" duration="3128000" />
+      <workItem from="1760333792897" duration="2061000" />
+      <workItem from="1760336237145" duration="194000" />
     </task>
     <servers />
   </component>
