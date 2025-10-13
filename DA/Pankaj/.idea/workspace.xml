@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="940630b9-48ab-4de7-ad99-d2f7dca3d0e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigs/assig3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/assig3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/day5/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day6/theory.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day5/theory.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigs/assig4.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigs/assig4_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/assig4_2.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment4.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment5.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -116,6 +116,7 @@
       <workItem from="1760173348753" duration="5366000" />
       <workItem from="1760191986827" duration="23000" />
       <workItem from="1760333783524" duration="5000" />
+      <workItem from="1760359197691" duration="14680000" />
     </task>
     <servers />
   </component>
