@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/assig4_2.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/fdata.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/assigs/assig3.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/assigs/assig3.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/day6/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/day5/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../DA/Pankaj/day6/theory.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../DA/Pankaj/day5/theory.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/Assigments/Assigment5.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,27 +34,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.databaseConnectivity.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mysqlconnectivity.executor&quot;: &quot;Run&quot;,
-    &quot;Python.views.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DAIAugust2025/Python/Anurag/PythonvenvPrac/Class Concepts/class_concepts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Main.executor": "Run",
+    "Python.databaseConnectivity.executor": "Run",
+    "Python.mysqlconnectivity.executor": "Run",
+    "Python.views.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "Merging master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/DAIAugust2025/Python/Anurag/PythonvenvPrac/Class Concepts/class_concepts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DAIAugust2025\Python\Anurag\PythonvenvPrac\Class Concepts\class_concepts" />
@@ -130,6 +128,7 @@
       <workItem from="1760173429000" duration="3128000" />
       <workItem from="1760333792897" duration="2061000" />
       <workItem from="1760336237145" duration="194000" />
+      <workItem from="1760343573686" duration="839000" />
     </task>
     <servers />
   </component>
