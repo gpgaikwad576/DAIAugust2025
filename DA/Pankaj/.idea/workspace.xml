@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="940630b9-48ab-4de7-ad99-d2f7dca3d0e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assigs/assig6.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/assig6.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assigs/assig7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/assig7.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment9.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment9.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,11 +121,24 @@
       <workItem from="1760498567784" duration="510000" />
       <workItem from="1760503486621" duration="26251000" />
       <workItem from="1760584928251" duration="7221000" />
+      <workItem from="1760669481070" duration="19000" />
+      <workItem from="1760671896254" duration="15212000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/assigs/assig7.ipynb</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Pankaj$ddd.coverage" NAME="ddd Coverage Results" MODIFIED="1760176972821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assigs" />
