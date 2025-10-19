@@ -7,8 +7,6 @@
     <list default="true" id="940630b9-48ab-4de7-ad99-d2f7dca3d0e2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assigs/assig7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assigs/assig7.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment9.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/Anurag/Data Analysis/Assigments/Assigment9.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +121,7 @@
       <workItem from="1760584928251" duration="7221000" />
       <workItem from="1760669481070" duration="19000" />
       <workItem from="1760671896254" duration="15212000" />
+      <workItem from="1760855891780" duration="32690000" />
     </task>
     <servers />
   </component>
