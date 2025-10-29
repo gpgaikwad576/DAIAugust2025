@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="993a7711-9951-4951-962b-e655ccda7dff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4 KNN regression.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/lab4 KNN regression.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Anurag/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Anurag/Machine learning/Theory/day4.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Anurag/Machine learning/Theory/day4.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +76,8 @@
       <workItem from="1761576146514" duration="3000" />
       <workItem from="1761576199389" duration="29000" />
       <workItem from="1761644761260" duration="4925000" />
+      <workItem from="1761714315795" duration="11088000" />
+      <workItem from="1761737370182" duration="63000" />
     </task>
     <servers />
   </component>
