@@ -7,6 +7,7 @@
     <list default="true" id="29e6c26c-2f58-48f3-8f23-caf58d02d7b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../ML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ML/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Machine learning/Theory/Day7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Machine learning/Theory/Day7.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +146,7 @@
       <workItem from="1761737431967" duration="139000" />
       <workItem from="1761737580147" duration="202000" />
       <workItem from="1761791898999" duration="11763000" />
+      <workItem from="1761881250083" duration="10230000" />
     </task>
     <servers />
   </component>
