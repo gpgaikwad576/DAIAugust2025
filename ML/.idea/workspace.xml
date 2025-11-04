@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="993a7711-9951-4951-962b-e655ccda7dff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10 dimnsion reduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day10 dimnsion reduction.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Anurag/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -51,6 +54,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DAIAugust2025\ML" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DAIAugust2025\ML\lab11" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -86,6 +97,10 @@
       <workItem from="1761965434254" duration="29000" />
       <workItem from="1761969095829" duration="15141000" />
       <workItem from="1762139047337" duration="11149000" />
+      <workItem from="1762169462721" duration="19000" />
+      <workItem from="1762224019643" duration="27000" />
+      <workItem from="1762227639435" duration="20000" />
+      <workItem from="1762227691043" duration="16759000" />
     </task>
     <servers />
   </component>
