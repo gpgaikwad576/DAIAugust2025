@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="993a7711-9951-4951-962b-e655ccda7dff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10 dimnsion reduction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/day10 dimnsion reduction.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Anurag/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python/Anurag/Machine learning/Assigment1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Anurag/Machine learning/Assigment1.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -62,6 +62,44 @@
       <recent name="D:\DAIAugust2025\ML\lab11" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="ML" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="ML" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -101,6 +139,9 @@
       <workItem from="1762224019643" duration="27000" />
       <workItem from="1762227639435" duration="20000" />
       <workItem from="1762227691043" duration="16759000" />
+      <workItem from="1762326856964" duration="611000" />
+      <workItem from="1762336284849" duration="2743000" />
+      <workItem from="1762339835572" duration="2750000" />
     </task>
     <servers />
   </component>
