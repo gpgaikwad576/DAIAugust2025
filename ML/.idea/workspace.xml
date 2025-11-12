@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="993a7711-9951-4951-962b-e655ccda7dff" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Anurag/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Anurag/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Anurag/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Anurag/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Anurag/Machine learning/Assigment1_ML.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Anurag/Machine learning/Assigment1_ML.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Python/Anurag/Machine learning/Theory/Day12TSNE.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Python/Anurag/Machine learning/Theory/Day12TSNE.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +41,19 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/DAIAugust2025/ML/250840128012_PML&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DAIAugust2025/ML&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.import&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
     &quot;typescript.add.unambiguous.imports.on.the.fly&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DAIAugust2025\ML\250840128012_PML" />
       <recent name="D:\DAIAugust2025\ML" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -68,6 +63,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-PY-252.25557.178" />
         <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
       </set>
     </attachedChunks>
@@ -108,6 +104,7 @@
       <workItem from="1762339835572" duration="2750000" />
       <workItem from="1762345333018" duration="132000" />
       <workItem from="1762396897388" duration="8000" />
+      <workItem from="1762736090756" duration="6452000" />
     </task>
     <servers />
   </component>
