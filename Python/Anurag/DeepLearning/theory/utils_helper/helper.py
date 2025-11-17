@@ -424,3 +424,22 @@ def fn_plot_confusion_matrix(y_true, y_pred, labels):
     ax.grid(False)
 
     plt.show()
+
+def plot_graph(history):
+    fig,ax = plt.subplots(1,2,figsize=(15,8))
+    keys=list(history.history.keys())
+    ax[0].plot(history.epoch,history.history[keys[0]],label=keys[0])
+    ax[0].plot(history.epoch,history.history[keys[2]],label=keys[2])
+    ax[0].set_title('Accuracy')
+    ax[0].set_xlabel('Epochs')
+    ax[0].set_ylabel('Accuracy')
+    ax[0].legend()
+
+    ax[1].plot(history.epoch,history.history[keys[1]],label=keys[1])
+    ax[1].plot(history.epoch,history.history[keys[3]],label=keys[2])
+    ax[1].set_title('Loss')
+    ax[1].set_xlabel('Epochs')
+    ax[1].set_ylabel('loss')
+    ax[1].legend()
+
+    plt.show()
