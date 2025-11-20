@@ -28,7 +28,7 @@ from IPython import display
 from tqdm import tqdm, trange
 
 import logging
-from utils.log_event import fn_log_event
+from theory.utils.log_event import fn_log_event
 
 
 RANDOM_STATE = 24 # for initialization ----- REMEMBER: to remove at the time of promotion to production
