@@ -16,6 +16,7 @@ import datetime
 
 import numpy as np
 import pandas as pd
+import tensorflow as tf
 import matplotlib.pyplot as plt
 import tensorflow as tf
 
@@ -27,7 +28,7 @@ from IPython import display
 from tqdm import tqdm, trange
 
 import logging
-from utils.log_event import fn_log_event
+from theory.utils.log_event import fn_log_event
 
 
 RANDOM_STATE = 24 # for initialization ----- REMEMBER: to remove at the time of promotion to production
@@ -113,7 +114,9 @@ def fn_plot_tf_hist(hist_df):
             column 3: val_loss
             While plotting columns are accessed by index 
             so that even if the column names are different it will not throw exceptions.
+            'accuracy', 'loss', 'val_accuracy', 'val_loss'
     '''
+    
         
     fig, axes = plt.subplots(1,2 , figsize = (15,6))
 
