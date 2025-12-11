@@ -1,0 +1,119 @@
+$ history
+    1  cd D:\DAIAugust2025\dai
+    2  git init
+    3  git init
+    4  git add -a
+    5  git add .
+    6  git rm --cached java/day4/DessertOps
+    7  git rm -f --cached java/day4/DessertOps
+    8  git add .
+    9  git rm --cached java/day4/DessertOps
+   10  git rm -f --cached java/day4/DessertOps
+   11  git add .
+   12  rm -rf java/day4/DessertOps/.git
+   13  git add java/day4/DessertOps
+   14  git add .
+   15  git commit -m "initial commit"
+   16  git commit -m "initial commit"
+   17  git remote add origin https://github.com/gpgaikwad576/DAIAugust2025.git
+   18  git push -u origin master
+   19  cd D;
+   20  cd D:
+   21  cd ideaProjects
+   22  cd DAIAugust2025/
+   23  git add .
+   24  git commit -m "Completed java/day7/Fruit stram code"
+   25  git push origin
+   26  cd D:
+   27  cd DAIAugust2025/
+   28  git push .
+   29  cd D:
+   30  cd DAIAugust2025/
+   31  git add .
+   32  git commit -m "Completed java/day8/Toy stream implementation, wrote Python/day4"
+   33  git push origin
+   34  cd D:
+   35  cd DAIAugust2025/
+   36  git add .
+   37  git commit -m "Java/day8/Tweet and python/day4/comp iter gen"
+   38  git push origin
+   39  PWD
+   40  BBBBBBB
+   41  CD /C
+   42  CD ./C
+   43  cd /e
+   44  cd /e
+   45  /e
+   46  cd /d
+   47  cd /d/DAIAugust2025
+   48  mkdir mlops
+   49  ls -l
+   50  cd /mlops
+   51  cd mplops
+   52  /mlops
+   53  cls;
+   54  clear;
+   55  cd /mops
+   56  cd ~
+   57  cd /d
+   58  cd/DAIAugust2025
+   59  mlops
+   60  cd /mlops
+   61  cd D:\mlops
+   62  git init
+   63  ls .git
+   64  cat .git/head
+   65  cat .git/config
+   66  ls -l .git
+   67  git status
+   68  vi main.py
+   69  vi main.py
+   70  git status
+   71  git add main.py
+   72  git status
+   73  git commit -m "added main.py"
+   74  git log
+   75  git config --global user.name dai12
+   76  git config --global user.email dai12@gmail.com
+   77  git config --global user.name Pankaj
+   78  git config --global user.email gpgaikwad576@gmail.com
+   79  git config user.name dai12
+   80  git config user.email dai12@gmail.com
+   81  git status
+   82  md5sum main.py
+   83  vi main.py
+   84  md5sum main.py
+   85  vi main.py
+   86  vi main.py
+   87  vi main.py
+   88  clear
+   89  history
+   90  clear
+   91  git status
+   92  git restore main.py
+   93  cat main.py
+   94  vi main.py
+   95  git add -A
+   96  git commit -m "main.py: added 2nd line"
+   97  git log
+   98  ls .git
+   99  cat .git/HEAD
+  100  cat .git/refs/heads/master
+  101  cat .git/refs/heads/master
+  102  vi main.py
+  103  git add -A
+  104  git commit -m "main.py:3rd line added"
+  105  git log
+  106  git show  1af4e2a6a231
+  107  git checkout 1af4e2a6a23161db
+  108  cat main.py
+  109  git restore --staged main.py
+  110  git log
+  111  cat main.py
+  112  git status
+  113  cat main.py
+  114  git checkout bedb10fe36733
+  115  git log
+  116  git status
+  117  history
+

@@ -1,0 +1,308 @@
+dai@DAI12 MINGW64 /d/dai1 (login)
+$ history
+    1  cd D:\DAIAugust2025\dai
+    2  git init
+    3  git init
+    4  git add -a
+    5  git add .
+    6  git rm --cached java/day4/DessertOps
+    7  git rm -f --cached java/day4/DessertOps
+    8  git add .
+    9  git rm --cached java/day4/DessertOps
+   10  git rm -f --cached java/day4/DessertOps
+   11  git add .
+   12  rm -rf java/day4/DessertOps/.git
+   13  git add java/day4/DessertOps
+   14  git add .
+   15  git commit -m "initial commit"
+   16  git commit -m "initial commit"
+   17  git remote add origin https://github.com/gpgaikwad576/DAIAugust2025.git
+   18  git push -u origin master
+   19  cd D;
+   20  cd D:
+   21  cd ideaProjects
+   22  cd DAIAugust2025/
+   23  git add .
+   24  git commit -m "Completed java/day7/Fruit stram code"
+   25  git push origin
+   26  cd D:
+   27  cd DAIAugust2025/
+   28  git push .
+   29  cd D:
+   30  cd DAIAugust2025/
+   31  git add .
+   32  git commit -m "Completed java/day8/Toy stream implementation, wrote Python/day4"
+   33  git push origin
+   34  cd D:
+   35  cd DAIAugust2025/
+   36  git add .
+   37  git commit -m "Java/day8/Tweet and python/day4/comp iter gen"
+   38  git push origin
+   39  PWD
+   40  BBBBBBB
+   41  CD /C
+   42  CD ./C
+   43  cd /e
+   44  cd /e
+   45  /e
+   46  cd /d
+   47  cd /d/DAIAugust2025
+   48  mkdir mlops
+   49  ls -l
+   50  cd /mlops
+   51  cd mplops
+   52  /mlops
+   53  cls;
+   54  clear;
+   55  cd /mops
+   56  cd ~
+   57  cd /d
+   58  cd/DAIAugust2025
+   59  mlops
+   60  cd /mlops
+   61  cd D:\mlops
+   62  git init
+   63  ls .git
+   64  cat .git/head
+   65  cat .git/config
+   66  ls -l .git
+   67  git status
+   68  vi main.py
+   69  vi main.py
+   70  git status
+   71  git add main.py
+   72  git status
+   73  git commit -m "added main.py"
+   74  git log
+   75  git config --global user.name dai12
+   76  git config --global user.email dai12@gmail.com
+   77  git config --global user.name Pankaj
+   78  git config --global user.email gpgaikwad576@gmail.com
+   79  git config user.name dai12
+   80  git config user.email dai12@gmail.com
+   81  git status
+   82  md5sum main.py
+   83  vi main.py
+   84  md5sum main.py
+   85  vi main.py
+   86  vi main.py
+   87  vi main.py
+   88  clear
+   89  history
+   90  clear
+   91  git status
+   92  git restore main.py
+   93  cat main.py
+   94  vi main.py
+   95  git add -A
+   96  git commit -m "main.py: added 2nd line"
+   97  git log
+   98  ls .git
+   99  cat .git/HEAD
+  100  cat .git/refs/heads/master
+  101  cat .git/refs/heads/master
+  102  vi main.py
+  103  git add -A
+  104  git commit -m "main.py:3rd line added"
+  105  git log
+  106  git show  1af4e2a6a231
+  107  git checkout 1af4e2a6a23161db
+  108  cat main.py
+  109  git restore --staged main.py
+  110  git log
+  111  cat main.py
+  112  git status
+  113  cat main.py
+  114  git checkout bedb10fe36733
+  115  git log
+  116  git status
+  117  history
+  118  git
+  119  cd d
+  120  cd /d
+  121  mkdir project1
+  122  cd project1
+  123  gitinit
+  124  git init
+  125  vi test1.py
+  126  git status
+  127  git add test1.py
+  128  git status
+  129  git commit 'first_commit_1'
+  130  git commit -m 'first_commit_1'
+  131  git status
+  132  vim test1.py
+  133  git status
+  134  git add .
+  135  git status
+  136  git restore test1.py
+  137  git status
+  138  git add
+  139  git restore test1.py
+  140  git logs
+  141  git log
+  142  git
+  143  clear;
+  144  cd d/
+  145  cd /d
+  146  cd prohect
+  147  cd /project
+  148  cd /project1
+  149  cd /project1
+  150  cd project1
+  151  cd ~
+  152  cd d/project1
+  153  cd d\project1
+  154  cd d\project1\
+  155  cd \d\project1
+  156  cd /d/project1/
+  157  git init
+  158  vi test1.py
+  159  git status
+  160  git add .
+  161  git status
+  162  git status
+  163  git add .
+  164  git restore test1.py
+  165  git show
+  166  'clear'
+  167  cd d
+  168  cd /d
+  169  cd /project1
+  170  cd /project1/
+  171  cd project1/
+  172  vi test1.py
+  173  git status
+  174  git add test1.py
+  175  git commit -m "first line"
+  176  vi test1.py
+  177  git add test1.py
+  178  git restore test1.py
+  179  cat test1.py
+  180  git restore --staged test1.py
+  181  git restore test1.py
+  182  cat test1.py
+  183  git status
+  184  git config --global user.email
+  185  git config --global user.email 50crkikothi@gmail.com
+  186  git log
+  187  cls;
+  188  clear
+  189  git log
+  190  git config --global user.email "fakeachintya"
+  191  git logs
+  192  git log
+  193  git config --global user.email "fakeachintya@gmail.com"
+  194  git status
+  195  nano test1.py
+  196  cd d
+  197  cd d:/
+  198  cd project1/
+  199  vi test1.py
+  200  git add .
+  201  git commit -m "added random text"
+  202  git log
+  203  git checkout e5a5e8cdde5956189cb137717714ce331fb706e0
+  204  git add .
+  205  git commit -m 'added'
+  206  git status
+  207  git log
+  208  git checkout msater
+  209  git checkout master
+  210  git log
+  211  git checkout e5a5e8cdde5956189cb137717714ce331fb706e0
+  212  git status
+  213  git commit -m "first"
+  214  git add .
+  215  git commit -m 'first'
+  216  cls;
+  217  clea;
+  218  cls;
+  219  clear
+  220  clear;
+  221  mkdir dai1
+  222  pwd
+  223  cd d:/
+  224  mkdir dai1
+  225  vi file1.html
+  226  git add - A
+  227  git init
+  228  cd dai1
+  229  git init
+  230  git add - A
+  231  git add -A
+  232  git commit -m "added  1 file"
+  233  git branch
+  234  git branch login
+  235  git branch
+  236  git checkout login
+  237  git log
+  238  vi login.html
+  239  git add -A
+  240  git commit -m "Login page added"
+  241  git log
+  242  ls
+  243  git checkout master
+  244  ls
+  245  git log
+  246  git checkout login
+  247  git checkout master
+  248  cat file1.html
+  249  vi file1.html
+  250  git checkout login
+  251  git checkout master
+  252  vi file1.html
+  253  git checkout login
+  254  vi file1.html
+  255  git add .
+  256  git statu
+  257  git status
+  258  git commit -m "Added second line in file1.html"
+  259  git log
+  260  git checkout master
+  261  ls
+  262  git log
+  263  git checkout login
+  264  git log
+  265  git chckout master
+  266  git merge login
+  267  git log
+  268  git chckout master
+  269  git merge login
+  270  git checkout master
+  271  git merge login
+  272  git log
+  273  git checkout login
+  274  git log
+  275  git branch demo1
+  276  git checkout demo1
+  277  git log
+  278  git checkout master
+  279  git checkout demo1
+  280  vi demo1.html
+  281  git add -A
+  282  git commit -m "added line1 in demo1.html"
+  283  git log
+  284  git checkout login
+  285  git log
+  286  ls .git/refs/
+  287  ls .git/refs/heads
+  288  cat .git/refs/heads/demo1
+  289  git checkout master
+  290  git log
+  291  git checkout login
+  292  git merge demo1
+  293  git log
+  294  git checkout master
+  295  git log
+  296  git merge login
+  297  git log
+  298  ls .git/objects
+  299  ls .git/objects/04
+  300  git branch -M demo1 otplogin
+  301  git branch
+  302  vi newfile
+  303  git checkout login
+  304  git log
+  305  git branch -M demo1 otplogin
+  306  history
