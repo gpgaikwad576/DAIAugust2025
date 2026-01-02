@@ -1,0 +1,6 @@
+phidata
+groq
+numpy
+pandas
+scikit-learn
+yfinance

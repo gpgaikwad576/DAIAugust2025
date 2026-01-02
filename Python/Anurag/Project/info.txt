@@ -1,0 +1,14 @@
+online (api)
+Claude 3.5 Sonnet / 3.7 Sonnet: excellent
+GPT-4o: excellent
+
+offline model:
+Qwen2.5-VL-7B (or 72B): good
+Florence-2 (by Microsoft): best 
+
+
+Method Accuracy Setup Effort Cost 
+DePlot (Optimized) 70–85% Low Free(Local)
+Qwen2.5-VL 85–92% Medium Free(Local)
+Claude 3.5 Sonnet 95%+ VeryLow APICosts 
+WebPlotDigitizer100% High(Manual) Free
